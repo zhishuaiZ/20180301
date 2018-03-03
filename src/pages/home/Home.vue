@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
       <index-header />
-      {{msg}}
   </div>
 </template>
 
@@ -13,13 +12,12 @@ export default {
     name: 'HelloWorld',
     data () {
         return {
-          msg: 'Welcome to Your Vue.js App'
+          counter: 0
         }
     },
     components: {
         "index-header": header
     }
-
 }
 </script>
 
